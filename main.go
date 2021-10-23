@@ -14,7 +14,7 @@ var EV *slack.MessageEvent
 var RTM *slack.RTM
 
 //BotToken Put your slackbot token here
-const BotToken string := os.Getenv("BOT_TOKEN")
+const BotToken string = os.Getenv("BOT_TOKEN")
 
 //DefaultChannel Put your default channel
 const DefaultChannel string = "#takecantik-go-practice"
